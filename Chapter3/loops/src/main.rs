@@ -35,4 +35,9 @@ fn main() {
     for &num in &numbers {
         println!("idx {}, value {}", idx, num);
     }
+
+    for n in (0..10).rev() {
+        println!("{}!", n);
+    }
+    println!("LIFTOFF!!!");
 }
